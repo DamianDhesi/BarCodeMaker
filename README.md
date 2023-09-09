@@ -28,6 +28,6 @@ After spending roughly 5 hours learning barcode libraries for python, coding, an
 
 ## Utilized Libraries 
 
-* [Openpyxl](https://openpyxl.readthedocs.io/en/stable/): used to get the barcode numbers from the xecl file
+* [Openpyxl](https://pypi.org/project/openpyxl/): used to get the barcode numbers from the xecl file
 * [python-barcode](https://pypi.org/project/python-barcode/): used to generate the barcodes
 * [PyInstaller](https://pypi.org/project/pyinstaller/): used to compile the code into an executable
