@@ -7,6 +7,7 @@
   - Place the font fitle (.ttf) in the same folder as it will not work otherwise
   - format the desired barcode numbers in the exact same way as /test/Book1.xlsx
   - Run the executable to generate a BardCode folder with all the barcodes in .png format
+    - works only on windows devices
  * Support for the the generation of barcodes as .zpl files was attempted but never completed
 
  ## Code Design
@@ -27,4 +28,6 @@ After spending roughly 5 hours learning barcode libraries for python, coding, an
 
 ## Utilized Libraries 
 
-* Openpxyl 
+* [Openpyxl](https://openpyxl.readthedocs.io/en/stable/): used to get the barcode numbers from the xecl file
+* [python-barcode](https://pypi.org/project/python-barcode/): used to generate the barcodes
+* [PyInstaller](https://pypi.org/project/pyinstaller/): used to compile the code into an executable
